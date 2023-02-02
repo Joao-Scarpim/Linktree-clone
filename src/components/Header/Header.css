@@ -1,0 +1,18 @@
+
+.perfil_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-terciaria)
+}
+.perfil_img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("./foto.png");
+    border-radius: 50%;
+}
+h3 {
+    font-size: 1.5rem;
+}
+

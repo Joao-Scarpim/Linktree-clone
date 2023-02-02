@@ -1,0 +1,27 @@
+.link_container {
+    width: 400px;
+    height: 40px;
+    background-color: var(--cor-secundaria);
+    margin: 10px auto;
+    padding: 0;
+    display: flex;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+.link_container:hover {
+    transform: scale(1.05);
+    cursor: pointer
+}
+
+a {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: var(--cor-bg);
+    transition: 0.3s ease-in;
+    font-weight: bold;
+}
+
+
+
